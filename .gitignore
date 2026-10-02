@@ -1,0 +1,38 @@
+# Audio recordings are NOT distributed with this repository.
+# See README "Dataset" -- obtain them separately, they total ~39 MB.
+data/
+data.zip
+*.wav
+*.m4a
+*.mp3
+*.aac
+*.flac
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+env/
+
+# Testing / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local scratch
+scratch/
+*.tmp
